@@ -1,0 +1,6 @@
+﻿services:
+  filemanger:
+    image: filemanger
+    build:
+      context: .
+      dockerfile: FileManger/Dockerfile
