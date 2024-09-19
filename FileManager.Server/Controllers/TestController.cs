@@ -13,6 +13,6 @@ public class TestController : Controller
     [HttpGet]
     public IActionResult Index()
     {
-        return Ok("Hello World!");
+        return Ok("Hello World now!");
     }
 }
