@@ -4,3 +4,10 @@
     build:
       context: .
       dockerfile: FileManger/Dockerfile
+
+
+  filemanager.server:
+    image: filemanager.server
+    build:
+      context: .
+      dockerfile: FileManager.Server/Dockerfile
